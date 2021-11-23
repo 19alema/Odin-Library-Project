@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Odin Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header>
+       <h2>My Book Library</h2>
+   </header>
+
+   
+   <main>
+    <button class="addbook">ADD BOOK</button>
+
+    <section class="modal">
+        <article class="modal-infor">
+            <h2>Add book</h2>
+            <input type="text" name="text" id="title" placeholder ="Title" required>
+            <input type="text" name="text" id="author" placeholder="Author" required>
+            <input type="number" name="number" id="pages" placeholder="Pages" required>
+            <div class="checkbox">
+                <p>Did you read it?</p>
+                <input type="checkbox" name="checkbox" id="read_checkbox">
+            </div>
+            <input type="submit" value="Submit" id="submit_btn">
+        </article>
+    </section>
+       <section class="booksContainer">
+
+       </section>
+   </main>
+   <script src="script.js"></script> 
+</body>
+</html>
